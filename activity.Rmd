@@ -1,0 +1,29 @@
+---
+title: "activity"
+author: "Wenqing Zha"
+date: '2022-09-08'
+output: html_document
+---
+
+```{r}
+library(readr)
+library(dplyr)
+library(nlme)
+library(ggplot2)
+```
+
+```{r}
+dim(Diabetes)
+```
+
+```{r}
+arrange(Diabetes, Diabetes$`Diagnosed Diabetes Percentage`)
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
